@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 5;
+  padding: 4;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -25,7 +25,6 @@ body {
   color: white;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 7px 7px rgb(0 0 0 / 20%);
   min-height: 300px;
 }
 
@@ -45,7 +44,7 @@ body {
     background: rgba(0,0,0,0.3);
     padding: 10px;
     color: white;
-    width: 500px;
+    width: 350px;
 }
 .input-wrapper button {
   background: #d6d6b7;
@@ -75,7 +74,7 @@ body {
   background: transparent;
   border: 1px solid;
   border-radius: 50%;
-  padding: 6px;
+  padding: 20px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
   margin-left: 5px;
@@ -87,5 +86,5 @@ body {
   text-decoration: line-through;
 }
 .fa-x {
-  padding: 6px 8px !important;
+  padding: 8px 8px !important;
 }
